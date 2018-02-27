@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <title>Цитати відомих українців</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="js/pace.js"></script>
+    <link href="css/pace-theme-big-counter.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css"> 
+    
+  </head>
+  <body >
+    <div class="overlay-loader">
+      <div class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="parent-container">
+      <div class="title-container">
+        <h1 class="title">Цитати відомих українців.</h1>
+        <p class="title-content">Це деякі з моїх улюблених цитат. Для зручності перегляду є можливість вибору автора. Цитати генеруються у випадковому порядку. Приємного перегляду.</p>
+      </div>
+      <div class="content-container">
+        <img src="#" class="photo-author" alt="" >
+        <div class="quote-container">
+        <!-- контейнер вподобань-->
+          <div class="preference-container">
+            <output class="preference-count tag-with-title" data-title="Кількість вподобань"></output>
+            <div class="preference-image tag-with-title" data-title="Вподобання"></div>
+          </div>
+          <blockquote id="#"></blockquote>
+          <cite></cite>
+          <div class="infoPosition-container">
+            <output class="currentPosition tag-with-title" data-title="Кількість переглянутих цитат"></output>
+            <span>-</span>
+            <output class="lengthCurrentList tag-with-title" data-title="Загальна кількість цитат"></output>
+          </div>
+        </div>
+      </div>
+      <!-- контейнер для елементів управління -->
+      <div class="container">
+        <button type="button" class="next form-js">Додати цитату</button>
+        <div class="choice-author-container">
+          <select name="choiceAuthor"  class="choice-author " disabled>
+            <option value="Всі автори">Всі автори</option>
+                
+          </select>
+        </div>
+        <button type="button" class="next next-js" disabled> Наступна </button>
+      </div>
+      <!--посилання на соціальні мережі -->
+      <div class="social-container">
+        <a href="https://www.facebook.com/" class="facebook-link social-link " target="-blank"></a>
+        <a href="https://www.instagram.com/" class="instagram-link social-link " target="-blank" ></a>
+        <a href="https://twitter.com/" class="twitter-link social-link " target="-blank" ></a>
+      </div>
+    </div>
+
+    <div class="error">
+      <div class="error-content">
+        <p>Вибачте сталась прикра помилка !</p> 
+        <p>Цитати не завантажились.</p>
+        <p>Обов'язково спробуйте пізніше.</p>
+      </div>
+    </div>
+    <script src="js/myjs.js"></script>
+    
+  </body>
+</html>
